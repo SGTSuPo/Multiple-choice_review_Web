@@ -1,0 +1,16 @@
+*
+{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    text-align: center;
+    min-width: 250px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/058/150/original/blank-white-background-with-wavy-green-and-simple-design-suitable-for-presentation-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    justify-content: center;
+}
