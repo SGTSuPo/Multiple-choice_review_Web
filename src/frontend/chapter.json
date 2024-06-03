@@ -1,0 +1,22 @@
+{
+    "user": {
+        "id": "1",
+        "roleID": "2"
+    },
+    "class": {
+        "id": "1",
+        "name": "Lịch sử 11"
+    },
+    "chapter": [
+        {
+            "id": "1",
+            "name": "Thế giới",
+            "description": "1917-1945"
+        },      
+        {
+            "id": "3",
+            "name": "Việt Nam",
+            "description": "1930-1980"
+        }
+    ]
+}

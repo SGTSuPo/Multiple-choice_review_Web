@@ -1,0 +1,27 @@
+{
+    "user": {
+        "id": "101",
+        "roleID": "1"
+    },
+    "class":
+    [
+        {
+            "id": "1",
+            "name": "Lịch sử 11",
+            "subject": "LS",
+            "grade": 11,
+            "host": {
+                "name": "Lộc"
+            } 
+        },
+        {
+            "id": "2",
+            "name": "Địa lí THPTQG",
+            "subject": "DL",
+            "grade": 12,
+            "host": {
+                "name": "Tân"
+            } 
+        }
+    ]
+}

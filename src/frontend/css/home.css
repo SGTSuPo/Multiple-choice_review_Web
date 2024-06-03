@@ -81,44 +81,12 @@ nav
     min-height: 3rem;
     min-width: 100%;
     padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-size: large;
     font-weight: 500;
     color: white;
 }
-/* class */
-#workspace
-{
-    position: absolute;
-    top: 64px;
-    padding: 1rem 1rem;
-    margin: 0;
-    z-index: 700;
-}
-.class-title
-{
-    padding: 1rem 1rem;
-    height: 5rem;
-    text-align: end;
-    font-size: xx-large;
-    font-weight: 600;
-    color: white;
-}
-.chapter
-{
-    background-color: rgba(28, 27, 27, 0.803);
-    width: 15rem;
-    height: 5rem;
-    align-items: center;
-    border-radius: 2.5%;
-}
-div > h3
-{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-#add-chapter
+#join-class
 {
     position: fixed;
     top: 65px;
@@ -131,8 +99,60 @@ div > h3
     border-radius: 5%;
     visibility: collapse;
 }
-#add-chapter.open
+#join-class.open
 {
     visibility: visible;
 }
-
+#create-class
+{
+    position: fixed;
+    top: 65px;
+    left: auto;
+    background-color: rgb(234, 230, 224);
+    z-index: 850;
+    width: 20rem;
+    height: 20rem;
+    padding: 0;
+    border-radius: 5%;
+    visibility: collapse;
+}
+#create-class.open
+{
+    visibility: visible;
+}
+/* home */
+#workspace
+{
+    position: absolute;
+    top: 64px;
+    padding: 1rem 1rem;
+    margin: 0;
+    z-index: 700;
+}
+.room
+{
+    background-color: rgba(28, 27, 27, 0.803);
+    border-radius: 5%;
+}
+.card-title
+{
+    margin: 0;
+    width: 15rem;
+    height: 15rem;
+}
+.roomname
+{
+    padding: 0.5rem 0;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    height: 3rem;
+}
+.info-class
+{
+    height: calc(15rem - 3rem);
+}
+.info
+{
+    text-align: start;
+}

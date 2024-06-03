@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "username": "tea01",
+        "password": "1",
+        "firstName": "NT",
+        "lastName": "Lộc",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "2" 
+    },
+    {
+        "id": 2,
+        "username": "tea02",
+        "password": "1",
+        "firstName": "HN",
+        "lastName": "Tân",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "2" 
+    },
+    {
+        "id": 101,
+        "username": "stu101",
+        "password": "1",
+        "firstName": "NT",
+        "lastName": "Lộc",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "1" 
+    },
+    {
+        "id": 102,
+        "username": "stu102",
+        "password": "1",
+        "firstName": "NT",
+        "lastName": "Lộc",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "1" 
+    },
+    {
+        "id": 999,
+        "username": "ad1",
+        "password": "1",
+        "firstName": "NT",
+        "lastName": "Lộc",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "0" 
+    },
+    {
+        "id": 1000,
+        "username": "ad0",
+        "password": "1",
+        "firstName": "NT",
+        "lastName": "Lộc",
+        "DOB": "2003-08-29",
+        "address": "Dong Nai",
+        "phone": "03********",
+        "roleID": "0" 
+    }
+]

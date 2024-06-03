@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTTN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="icon" type="image" href="images/WebIcon.png">
+    <link rel="stylesheet" href="css/chapter.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark position-fixed bg-dark justify-content-between">
+      <button id="toggle" class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="dropdown">
+        <button class="btn" type="button" id="dropdown-btn">
+          <img src="images/icon-btn.png"  width="40px" height="40px">
+        </button>
+        <div class="dropdown-menu bg-dark"  id="dropdown-account">
+          <a class="dropdown-item text-light" href="info.html">Information</a>
+          <a class="dropdown-item text-light" href="changePassword.html">Change Password</a>
+          <a class="dropdown-item text-light" href="addAccount.html">Add Account</a>
+          <a class="dropdown-item text-danger" href="login.html" onclick="logout(event)">Log out</a>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <div class="container-fluid">
+      <div class="row flex-lg-nowrap">
+        <div id="sidebar" class="col bg-dark d-block">
+          <!-- js -->
+          <hr class="mt-2 bg-light"/>
+        </div>
+        <!-- add question -->
+        <div id="add-question" class="p-2">
+          <div class="form-add-question">
+            <form method="post" id = "addQuestion">
+              <div class="form-group">
+                <textarea name="detail" rows="5" class="form-control w-100" placeholder="Type Question"></textarea>
+              </div>
+              <div class="form-group">
+                <select name="type" class="form-control w-100">
+                  <option value="NB">Nhận biết</option>
+                  <option value="TH">Thông hiểu</option>
+                  <option value="VD">Vận dụng</option>
+                  <option value="VDC">Nâng cao</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="text" name="A" placeholder="A" class="form-control mt-1">
+                <input type="text" name="B" placeholder="B" class="form-control mt-1">
+                <input type="text" name="C" placeholder="C" class="form-control mt-1">
+                <input type="text" name="D" placeholder="D" class="form-control mt-1">
+              </div>
+              <div class="form-group">
+                <select name="ans" class="form-control w-100">
+                  <option value="A">Answer: A</option>
+                  <option value="B">Answer: B</option>
+                  <option value="C">Answer: C</option>
+                  <option value="D">Answer: D</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea name="explain" rows="2" class="form-control w-100" placeholder="Explaination"></textarea>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary btn-group justify-content-center w-25" >Add</button>
+                <button type="button" name="closeAddQuestion" class="btn btn-danger btn-group justify-content-center w-25" onclick="closeAddQuestionBtn()">Close</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- delete question -->
+        <!-- <div id="delete-question" class="p-3 w-50">
+          <p class="text-danger">Are you sure to delete this Question?</p>
+          <div >  
+            <button class="btn btn-group btn-primary" onclick="">Yes</button>
+            <button class="btn btn-group btn-danger" onclick="closeDeleteQuestionBtn()">Cancel</button>
+          </div>
+        </div> -->
+        <!--  -->
+        <div id="workspace" class="d-flex flex-wrap justify-content-start w-100">
+            <!-- js -->
+            <div class="questions mt-2 w-100">
+              <!-- js -->
+            </div>
+            <!-- add button -->
+            <!-- js -->
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/chapter/teacher.js"></script>
+  </body>
+  </html>
+  

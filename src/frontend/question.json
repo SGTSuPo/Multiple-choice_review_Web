@@ -1,0 +1,128 @@
+{
+    "chapter": {
+        "id": "chap01",
+        "name": "Thế giới"
+    },
+    "questions":[
+        {
+            "id": "1",
+            "type": "NB",
+            "detail": "Câu hỏi 1",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "A",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "2",
+            "type": "TH",
+            "detail": "Câu hỏi 2",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "C",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "3",
+            "type": "TH",
+            "detail": "Câu hỏi 3",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "B",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "4",
+            "type": "VD",
+            "detail": "Câu hỏi 4",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "D",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "5",
+            "type": "VDC",
+            "detail": "Câu hỏi 5",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "C",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "6",
+            "type": "NB",
+            "detail": "Câu hỏi 6",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "D",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "7",
+            "type": "TH",
+            "detail": "Câu hỏi 7",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "A",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "8",
+            "type": "VD",
+            "detail": "Câu hỏi 8",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "C",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "9",
+            "type": "TH",
+            "detail": "Câu hỏi 9",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "B",
+            "explain": "abcd"
+            
+        },
+        {
+            "id": "10",
+            "type": "VDC",
+            "detail": "Câu hỏi 10",
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "ans": "B",
+            "explain": "abcd"
+            
+        }
+    ]
+}
